@@ -1,7 +1,7 @@
 Basic JavaScript
 Npm
 React = 3
-React-JWT(Login Logut)-1
+React-JWT(Login Logout)-1
 React_hooks -1
 React-GarphQL-1
 Mock API
@@ -21,6 +21,7 @@ Testing
 API
 GarphQL
 Login/Logout
+oAuth
 
 https://code.visualstudio.com/
 https://nodejs.org/en/
@@ -60,3 +61,39 @@ Step to generate package.json
 > answer all question
 > type "yes"
 
+>>>>>>><<<<<<<<
+Step to install package/node_modules/dependency
+>>>>>>><<<<<<<<
+> navigate to folder where you want to install
+> npm i packagename / npm install packagename
+
+
+npm i 
+
+>>>>>>><<<<<<<<
+Step to generate react app 
+>>>>>>><<<<<<<<
+#Window
+### One Time in one System ####
+> open cmd as admin
+> npm i -g create-react-app
+
+### Next EveryTime you want new application ####
+> Go Inside folder where you want application using cmd
+> create-react-app appname
+-------------------------------------
+#Mac/Linux
+### One Time in one System ####
+> open terminal
+> sudo npm i -g create-react-app
+
+### Next EveryTime you want new application ####
+> Go Inside folder where you want application using terminal
+> create-react-app appname
+
+>>>>>>><<<<<<<<
+Step to run react app 
+>>>>>>><<<<<<<<
+> Go Inside the application using cmd/terminal
+> npm start
+> http://localhost:3000
