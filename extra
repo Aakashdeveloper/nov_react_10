@@ -97,3 +97,17 @@ Step to run react app
 > Go Inside the application using cmd/terminal
 > npm start
 > http://localhost:3000
+
+
+........components.........
+> Class components
+# Heavy as compare to Functional
+# Logical Component
+# can be use for display as well as api call and logics
+# We can maintain state in class Component
+
+> Functional components
+# light in weight
+# dumb Component
+# Use for display Purpose
+# We cannot maintain State in Functional
