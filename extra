@@ -111,3 +111,11 @@ Step to run react app
 # dumb Component
 # Use for display Purpose
 # We cannot maintain State in Functional
+
+State > Act like a local variable
+Props> help to transfer data between nested Component
+
+
+classname
+Id
+tagname

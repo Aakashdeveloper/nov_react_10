@@ -1,13 +1,13 @@
-import React from 'react';
+import React,{Fragment} from 'react';
 
-function Footer(){
+function Footer(props){
     return(
-        <div>
+        <Fragment>
             <hr/>
             <center>
-                <h3>&copy; NareshIT</h3>
+                <h3>&copy; NareshIT {props.year} {props.month}</h3>
             </center>
-        </div>
+        </Fragment>
     )
 }
 
