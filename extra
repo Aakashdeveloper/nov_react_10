@@ -119,3 +119,10 @@ Props> help to transfer data between nested Component
 classname
 Id
 tagname
+
+
+parent to child
+Home => Newsdisplay (simple props)
+
+Child to parent
+Header => Home (props with callback function)

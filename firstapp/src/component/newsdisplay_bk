@@ -1,0 +1,33 @@
+import React from 'react';
+
+const NewsDisplay = (props) => {
+    console.log("In Display", props)
+
+    const renderList = props.newsdata.map((data) => {
+        return(
+            <tr>
+                <td>{data.title}</td>
+                <td>{data.feed}</td>
+            </tr>
+        )
+    })
+
+    return(
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Heading</th>
+                        <th>feed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {renderList}
+                </tbody>
+            </table>
+            
+        </div>
+    )
+}
+
+export default NewsDisplay;
