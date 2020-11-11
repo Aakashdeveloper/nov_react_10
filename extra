@@ -131,6 +131,8 @@ npm i react-router-dom
 
 https://www.w3schools.com/bootstrap/bootstrap_navbar.asp
 
+npm i axios react-router-dom react-tabs
+
 (get) hotels> https://developerfunnel.herokuapp.com/hotels
 (get) hotelwrtcity > https://developerfunnel.herokuapp.com/hotels?city=6
 (get) hoteldetails > https://developerfunnel.herokuapp.com/hotelsdetails/1
