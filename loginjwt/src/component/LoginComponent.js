@@ -30,7 +30,11 @@ class LoginComponent extends Component{
             },
             body:JSON.stringify(this.state)
         })
-        .then(this.props.history.push('/profile'))
+        .then((res) => res.json())
+        .then((data) => {
+            sessionStorage.setItem('ltk',data.token)
+            this.props.history.push('/profile')
+        })
     }
 
     render(){
