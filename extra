@@ -5,13 +5,13 @@ React-JWT(Login Logout)-1
 Mock API
 json-server
 React_hooks -1
-//////////////////////
 React-GarphQL-1
 Depolyment
 -> MERN
 -> Docker
 -> Nginx
 -> heroku
+//////////////////////
 Basic React Native=1
 Github
 
@@ -177,3 +177,8 @@ JSON DUMMY API
 
 > npm i -g json-server
 > json-server --watch db.json --port 8900
+
+npm i apollo-boost apollo-graphql graphql graphql-tag react-apollo 
+
+////production///////
+npm run build
