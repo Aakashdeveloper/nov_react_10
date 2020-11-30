@@ -11,9 +11,9 @@ Depolyment
 -> Docker
 -> Nginx
 -> heroku
-//////////////////////
 Basic React Native=1
 Github
+//////////////////////
 
 React-Redux =2
 React-Saga -1
@@ -182,3 +182,16 @@ npm i apollo-boost apollo-graphql graphql graphql-tag react-apollo
 
 ////production///////
 npm run build
+
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testreact.git
+git push -u origin master
+
+git add .
+git commit -m "first commit"
+git push
+
+git clone https://github.com/Aakashdeveloper/testreact

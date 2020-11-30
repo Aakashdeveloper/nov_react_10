@@ -1,12 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React,{useState} from 'react';
+import { StyleSheet, Text, View ,Button} from 'react-native';
+import ListItem from './Component/ListView'
 
 export default function App() {
+  const [MyText,setText] = useState("My Mobile App")
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <ListItem/>
+      <Text>React Native</Text>
+      <Text>{MyText}</Text>
+      <Button title="Click Me" onPress={()=>{setText('Button Clicked')}}/>
+      <Button title="Revert" onPress={()=>{setText('My Mobile App')}}/>
+      
     </View>
   );
 }
