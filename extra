@@ -195,3 +195,9 @@ git commit -m "first commit"
 git push
 
 git clone https://github.com/Aakashdeveloper/testreact
+
+npm i redux react-redux redux-logger prop-types
+
+npm i redux react-redux react-router-dom prop-types redux-logger redux-promise react-slider
+
+npm i enzyme enzyme-adapter-react-16  react-addons-test-utils react-test-renderer
