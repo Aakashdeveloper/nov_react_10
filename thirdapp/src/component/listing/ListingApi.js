@@ -11,7 +11,7 @@ class ListingApi extends Component{
         super()
 
         this.state={
-            hotellist:''
+            hotellist:'',
         }
     }
 
